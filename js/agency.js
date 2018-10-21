@@ -47,4 +47,10 @@
     $('.navbar').removeClass('d-none');
   })
 
+ 
+  var menu = $.get('js/menu.json', (menuitems) => {
+    console.log(menuitems.price);
+    $('.title').text(menuitems)
+  })
+
 })(jQuery); // End of use strict

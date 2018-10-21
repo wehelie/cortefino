@@ -1,0 +1,30 @@
+{
+    {
+        "name": "QUESO FUNDIDO",
+        "price": 7.99,
+        "desc": "Mexican-style cheese dip topped with beef chorizo and Pico de Gallo"
+    },
+
+   {
+        "name":  "TACOS DORADOS",
+        "price": 7.99,
+        "desc": "Crispy tacos filled with shredded chicken or beef. Topped with red sauce, sour cream and guacamole."
+    },
+    {
+        "name": "CORTE FINO SALAD",
+        "price": 9.99,
+        "desc": "Iceberg lettuce with chipotle-ranch dressing, topped with grilled-chicken, black beans, Pico de Gallo and garnished with crispy corn tortilla chips"
+    },
+
+   {
+       "name":  "POLLO EN MOLE",
+        "price": 13.99,
+        "desc": "Three corn tortillas rolled and filled with your choice of meat (Tilapia, Shredded Chicken, Grilled Chicken, Tinga de Pollo or Shredded Beef), topped with cheese and onion. Served with rice and salad."
+    },
+
+    {
+        "name":"POLLO EN CREMA DE CHIPOTLE",
+        "price": 13.50,
+        "desc": "Chicken breast and onion in a creamy chipotle sauce, served with rice and salad."
+    }
+}
