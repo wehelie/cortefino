@@ -48,9 +48,17 @@
   })
 
  
-  var menu = $.get('js/menu.json', (menuitems) => {
-    console.log(menuitems.price);
-    $('.title').text(menuitems)
+  var menu = $.get('js/menu.json', (menu) => {
+    for (var i in menu) { 
+      console.log(menu[i][0].title); 
+    };
+    
+    $('.title1').text(menu[i][0].title);
+    $('.title2').text(menu[i][1].title);
+    $('.title3').text(menu[i][2].title);
+    $('.title4').text(menu[i][3].title);
+    $('.title5').text(menu[i][4].title);
+    $('.title6').text(menu[i][5].title);
   })
 
 })(jQuery); // End of use strict
