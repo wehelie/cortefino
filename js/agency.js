@@ -52,13 +52,31 @@
     for (var i in menu) { 
       console.log(menu[i][0].title); 
     };
-    
+    // title
     $('.title1').text(menu[i][0].title);
     $('.title2').text(menu[i][1].title);
     $('.title3').text(menu[i][2].title);
     $('.title4').text(menu[i][3].title);
     $('.title5').text(menu[i][4].title);
     $('.title6').text(menu[i][5].title);
+
+    // price
+
+    $('.price1').text(menu[i][0].price);
+    $('.price2').text(menu[i][1].price);
+    $('.price3').text(menu[i][2].price);
+    $('.price4').text(menu[i][3].price);
+    $('.price5').text(menu[i][4].price);
+    $('.price6').text(menu[i][5].price);
+
+    // desc
+    $('.desc1').text(menu[i][0].desc);
+    $('.desc2').text(menu[i][1].desc);
+    $('.desc3').text(menu[i][2].desc);
+    $('.desc4').text(menu[i][3].desc);
+    $('.desc5').text(menu[i][3].desc);
+    $('.desc6').text(menu[i][5].desc);
+
   })
 
 })(jQuery); // End of use strict
